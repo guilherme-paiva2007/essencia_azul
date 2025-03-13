@@ -1,4 +1,4 @@
-class Acolhido {
+declare class Acolhido {
     private id: number
     nome: string
     idade: number
@@ -33,14 +33,14 @@ class Acolhido {
     get documentos(): Documento[]
 }
 
-private class Residente {
+declare class Residente {
     private id: number
     private id_familia: number
     nome: string
     estado: "neurotipico" | "autista" | "investigacao"
 }
 
-class Familia {
+declare class Familia {
     private id: number
     sobrenome: string
     endereco: string
@@ -55,7 +55,7 @@ class Familia {
     observacoes: string
 }
 
-class Documento {
+declare class Documento {
     private id: number
     private id_acolhido: number
     get acolhido(): Acolhido
@@ -63,9 +63,15 @@ class Documento {
     arquivo: Blob
 }
 
-class Admin {
+declare class Admin {
     private id: number
     nome: string
     email: string
     senha: string
+}
+
+declare class Apoior {
+    private id: number
+    nome: string
+    logo: Blob
 }
