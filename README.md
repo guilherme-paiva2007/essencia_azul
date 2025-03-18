@@ -16,8 +16,11 @@ Ele inicia um servidor HTTP, buscando suas configurações de hostname e porta n
 O projeto está organizado nos seguintes diretórios e arquivos:
 ```
 index.js
+pages.js 
+pages_list.js
 config.json
 .gitignore
+pages/ (Conteúdo de páginas configuradas)
 src/
     tools/
     

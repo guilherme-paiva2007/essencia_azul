@@ -70,8 +70,24 @@ declare class Admin {
     senha: string
 }
 
-declare class Apoior {
+declare class Apoiador {
     private id: number
     nome: string
     logo: Blob
+}
+
+declare class SolicitacaoAcolhido {
+    private id: number
+    formulario_json: string
+}
+
+declare class SolicitacaoVoluntario {
+    private id: number
+    nome: string
+    cpf: string
+    email: string
+    telefone: string
+    como_ajudar: string
+    outras_ajudas: string
+    por_que_ser_voluntario: string
 }
