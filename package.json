@@ -21,6 +21,7 @@
     "@babel/core": "^7.26.10",
     "@babel/preset-env": "^7.26.9",
     "@babel/preset-react": "^7.26.3",
+    "@types/mysql": "^2.15.26",
     "@types/node": "^22.13.10",
     "@types/ws": "^8.18.0",
     "mysql": "^2.18.1",

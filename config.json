@@ -1,0 +1,12 @@
+{
+    "server": {
+        "port": 8080,
+        "hostname": "0.0.0.0"
+    },
+    "database": {
+        "hostname": "localhost",
+        "username": "root",
+        "password": "",
+        "database": "db_essencia_azul"
+    }
+}
